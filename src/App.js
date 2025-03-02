@@ -3,8 +3,12 @@ import Counter from './Counter';
 import './App.css';
 
 function App() {
-  return (<div>
+  return (
+  <div>
+    <h1 style={{textAlign:'center'}}>Teting Counters</h1>
     <Counter/>
+    <Counter initialCount={5}/>
+    <Counter initialCount={10}/>
   </div>);
 }
 
