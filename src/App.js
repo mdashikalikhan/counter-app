@@ -7,8 +7,8 @@ function App() {
   <div>
     <h1 style={{textAlign:'center'}}>Teting Counters</h1>
     <Counter/>
-    <Counter initialCount={5}/>
-    <Counter initialCount={10}/>
+    <Counter initialCount={5} maxLimit={25}/>
+    <Counter initialCount={10} maxLimit={30}/>
   </div>);
 }
 
